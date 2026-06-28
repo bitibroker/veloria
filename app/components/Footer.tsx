@@ -22,10 +22,13 @@ export default function Footer() {
           </ul>
         </div>
         <div className="foot-bottom">
-          <span className="foot-copy">© 2025 VÉLORIA · Todos los derechos reservados</span>
-          <span style={{ fontSize: '12px', color: 'var(--text-muted)', fontStyle: 'italic', fontFamily: 'var(--ff-d)' }}>
-            Tú te centras en crecer. Nosotros hacemos el resto.
-          </span>
+          <span className="foot-copy">© 2026 VÉLORIA · Todos los derechos reservados</span>
+          <ul className="foot-legal">
+            <li><a href="/aviso-legal">Aviso Legal</a></li>
+            <li><a href="/politica-de-privacidad">Privacidad</a></li>
+            <li><a href="/politica-de-cookies">Cookies</a></li>
+            <li><a href="/terminos-y-condiciones">Términos</a></li>
+          </ul>
           <span className="foot-made">Hecho con IA en España 🇪🇸</span>
         </div>
       </div>

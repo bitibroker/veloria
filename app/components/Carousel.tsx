@@ -92,7 +92,7 @@ export default function Carousel() {
   }, [emblaApi, update])
 
   return (
-    <section id="advantages" style={{ padding: '72px 0' }}>
+    <section id="advantages" style={{ padding: '48px 0' }}>
       {/* Header */}
       <div className="container">
         <div className="adv-hd reveal" style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: '56px', flexWrap: 'wrap', gap: '24px' }}>
