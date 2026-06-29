@@ -18,8 +18,8 @@ export default function PoliticaPrivacidad() {
         <p><strong>Identidad:</strong> VÉLORIA DIGITAL SOLUTIONS, S.L.</p>
         <p><strong>CIF:</strong> B-95847261</p>
         <p><strong>Dirección:</strong> Calle Ercilla, 22, 3.º Izquierda, 48011 Bilbao, Bizkaia, España</p>
-        <p><strong>Contacto:</strong> privacidad@veloria.es</p>
-        <p><strong>Teléfono:</strong> +34 944 782 340</p>
+        <p><strong>Contacto:</strong> hola@veloriaonline.es</p>
+        <p><strong>Teléfono:</strong> 688 712 110</p>
       </div>
 
       <div className="legal-section">
@@ -119,7 +119,7 @@ export default function PoliticaPrivacidad() {
           <li><strong>No ser objeto de decisiones automatizadas</strong> con efectos jurídicos significativos.</li>
         </ul>
         <p>
-          Para ejercer sus derechos, diríjase por escrito a <strong>privacidad@veloria.es</strong> o a nuestra dirección postal, adjuntando una copia de su DNI u otro documento identificativo válido. Responderemos a su solicitud en el plazo máximo de un mes, prorrogable por otros dos meses en casos de especial complejidad.
+          Para ejercer sus derechos, diríjase por escrito a <strong>hola@veloriaonline.es</strong> o a nuestra dirección postal, adjuntando una copia de su DNI u otro documento identificativo válido. Responderemos a su solicitud en el plazo máximo de un mes, prorrogable por otros dos meses en casos de especial complejidad.
         </p>
         <p>
           Si considera que el tratamiento de sus datos vulnera la normativa aplicable, tiene derecho a presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong>, con sede en C/ Jorge Juan, 6, 28001 Madrid (<a href="https://www.aepd.es" style={{ color: 'var(--gold)', textDecoration: 'none' }}>www.aepd.es</a>), sin perjuicio de los recursos judiciales que pudieran corresponderle.

@@ -144,7 +144,7 @@ export default function PoliticaCookies() {
           VÉLORIA puede actualizar la presente Política de Cookies cuando lo estime necesario, ya sea por cambios en el sitio web, por la incorporación de nuevas cookies, por requerimientos legales o por modificaciones en las cookies de terceros. Le recomendamos que revise periódicamente este documento. La fecha de la última actualización figura en el encabezado.
         </p>
         <p>
-          Para cualquier consulta relativa al uso de cookies, puede contactarnos en <strong>privacidad@veloria.es</strong>.
+          Para cualquier consulta relativa al uso de cookies, puede contactarnos en <strong>hola@veloriaonline.es</strong>.
         </p>
       </div>
     </LegalLayout>

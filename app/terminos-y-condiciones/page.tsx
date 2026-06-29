@@ -18,7 +18,7 @@ export default function TerminosCondiciones() {
         <p><strong>Denominación social:</strong> VÉLORIA DIGITAL SOLUTIONS, S.L.</p>
         <p><strong>CIF:</strong> B-95847261</p>
         <p><strong>Dirección:</strong> Calle Ercilla, 22, 3.º Izquierda, 48011 Bilbao, Bizkaia, España</p>
-        <p><strong>Contacto:</strong> hola@veloria.es · +34 944 782 340</p>
+        <p><strong>Contacto:</strong> hola@veloriaonline.es · 688 712 110</p>
       </div>
 
       <div className="legal-section">

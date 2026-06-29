@@ -37,12 +37,12 @@ export default function StrandsSection() {
           amplitude={1.8}
           waviness={1.2}
           thickness={0.65}
-          glow={2.2}
+          glow={1.4}
           taper={2.8}
           spread={1.3}
-          intensity={0.55}
+          intensity={0.38}
           saturation={1.6}
-          opacity={0.9}
+          opacity={0.62}
           scale={1.5}
           style={{ width: '100%', height: '100%' }}
         />

@@ -19,8 +19,8 @@ export default function AvisoLegal() {
         <p><strong>CIF:</strong> B-95847261</p>
         <p><strong>Domicilio social:</strong> Calle Ercilla, 22, 3.º Izquierda, 48011 Bilbao, Bizkaia, España</p>
         <p><strong>Registro Mercantil:</strong> Registro Mercantil de Bizkaia, Tomo 4821, Folio 178, Hoja BI-52430</p>
-        <p><strong>Correo electrónico:</strong> legal@veloria.es</p>
-        <p><strong>Teléfono:</strong> +34 944 782 340</p>
+        <p><strong>Correo electrónico:</strong> hola@veloriaonline.es</p>
+        <p><strong>Teléfono:</strong> 688 712 110</p>
       </div>
 
       <div className="legal-section">

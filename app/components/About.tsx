@@ -6,7 +6,9 @@ export default function About() {
       <div className="container">
         <div className="about-grid">
           <div className="about-orb-wrap reveal">
+            <div className="orb-halo"></div>
             <div className="orb-ring-2"></div>
+            <div className="orb-ring-3"><div className="orb-dot-3"></div></div>
             <div className="orb-ring"><div className="orb-dot"></div></div>
             <div className="orb-core"></div>
             <div

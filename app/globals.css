@@ -318,12 +318,15 @@ a { color: inherit; }
 #about { padding:48px 0; background:var(--bg2); }
 .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; }
 .about-orb-wrap { position:relative; height:480px; display:flex; align-items:center; justify-content:center; }
-.orb-core { width:260px; height:260px; border-radius:50%; background:radial-gradient(circle at 35% 30%,rgba(201,169,110,.22) 0%,rgba(90,50,200,.18) 50%,rgba(6,6,14,0) 75%); border:1px solid rgba(201,169,110,.18); animation:floatOrb 7s ease-in-out infinite; }
+.orb-halo { position:absolute; width:300px; height:300px; border-radius:50%; background:radial-gradient(circle,rgba(90,50,200,.18) 0%,rgba(201,169,110,.08) 45%,transparent 72%); filter:blur(28px); animation:floatOrb 7s ease-in-out infinite; pointer-events:none; }
+.orb-core { width:260px; height:260px; border-radius:50%; background:radial-gradient(circle at 35% 30%,rgba(201,169,110,.38) 0%,rgba(90,50,200,.28) 48%,rgba(6,6,14,0) 72%); border:1px solid rgba(201,169,110,.3); animation:floatOrb 7s ease-in-out infinite; box-shadow:0 0 55px rgba(201,169,110,.14),inset 0 0 40px rgba(90,50,200,.12); }
 @keyframes floatOrb { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-18px); } }
-.orb-ring { position:absolute; width:340px; height:340px; border-radius:50%; border:1px dashed rgba(201,169,110,.18); animation:spinRing 22s linear infinite; }
+.orb-ring { position:absolute; width:340px; height:340px; border-radius:50%; border:1px dashed rgba(201,169,110,.28); animation:spinRing 22s linear infinite; }
 @keyframes spinRing { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
-.orb-dot { position:absolute; top:-5px; left:50%; transform:translateX(-50%); width:10px; height:10px; border-radius:50%; background:var(--gold); box-shadow:0 0 14px var(--gold),0 0 28px rgba(201,169,110,.4); }
-.orb-ring-2 { position:absolute; width:420px; height:420px; border-radius:50%; border:1px solid rgba(201,169,110,.06); }
+.orb-dot { position:absolute; top:-5px; left:50%; transform:translateX(-50%); width:10px; height:10px; border-radius:50%; background:var(--gold); box-shadow:0 0 18px var(--gold),0 0 40px rgba(201,169,110,.55),0 0 70px rgba(201,169,110,.2); }
+.orb-ring-2 { position:absolute; width:420px; height:420px; border-radius:50%; border:1px solid rgba(201,169,110,.1); }
+.orb-ring-3 { position:absolute; width:292px; height:292px; border-radius:50%; border:1px dashed rgba(125,211,252,.16); animation:spinRing 34s linear infinite reverse; }
+.orb-dot-3 { position:absolute; bottom:-4px; left:50%; transform:translateX(-50%); width:7px; height:7px; border-radius:50%; background:#7DD3FC; box-shadow:0 0 12px #7DD3FC,0 0 24px rgba(125,211,252,.4); }
 .float-pill { position:absolute; background:var(--bg3); border:1px solid var(--border-md); border-radius:12px; padding:16px 22px; animation:floatOrb var(--fd,6s) ease-in-out infinite; animation-delay:var(--fdel,0s); }
 .float-pill .pill-label { font-size:10px; font-weight:600; letter-spacing:1.5px; color:var(--gold); text-transform:uppercase; margin-bottom:4px; }
 .float-pill .pill-val { font-family:var(--ff-d); font-size:2rem; font-weight:700; line-height:1; }
